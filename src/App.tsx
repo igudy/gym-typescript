@@ -1,12 +1,5 @@
-import { useState } from 'react'
-import './App.css'
-
 function App() {
-  return (
-    <>
-      <h1>Typescript react app</h1>
-    </>
-  )
+  return <div className="app">app</div>;
 }
 
-export default App
+export default App;
