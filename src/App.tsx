@@ -1,5 +1,16 @@
+import { useState } from "react";
+import Navbar from "./scenes/navbar";
+import { SelectedPage } from "./scenes/shared/types";
+
 function App() {
-  return <div className="app">app</div>;
+  const [selectedPage, setSelectedPage] = useState<SelectedPage>(SelectedPage.Home);
+  return (
+    <>
+      <div className="app">
+        <Navbar />
+      </div>
+  </>
+  )
 }
 
 export default App;
