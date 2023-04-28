@@ -63,8 +63,15 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             variants={{
               hidden: { opacity: 0, y: 50 },
               visible: { opacity: 1, y: 0 },
-            }}
-          >
+            }}>
+              {/* Use your email
+               <form
+              target="_blank"
+              onSubmit={onSubmit}
+              action="https://formsubmit.co/@youremail.com"
+              method="POST"
+            >
+            */}
             <form
               target="_blank"
               onSubmit={onSubmit}
